@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.target=Colour
+comment0.text=\n\ Enumeration\ class\ Colour\:\ this\ class\ constrains\ the\ colours\ to\ be\ used\ in\ Canvas\n\ Warning\:\ it\ is\ written\ in\ the\ british\ form\ (colour)\ to\ not\ confuse\ with\ the\ Color\ class\n\ from\ the\ 2D\ package\n\ \n\ @author\ Patrick\ Girard\n\ @version\ 2021.08\n
+numComments=1

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=CanvasRobot
+comment0.text=\n\ Draws\ robots\ on\ a\ canvas.\n\ \n\ @author\ Patrick\ Girard\ \n\ @version\ 2021.08\n
+comment1.params=colourBody
+comment1.target=CanvasRobot(java.lang.String)
+comment1.text=\n\ CanvasRobot\ Constructor\ -\ Creates\ a\ new\ graphical\ robot,\ which\ can\ be\ drawn.\ \n\ if\ the\ colour\ is\ not\ correct,\ the\ colour\ body\ is\ set\ to\ BLUE\n\ The\ robot\ is\ not\ drawn\ at\ this\ time\ (no\ coordinates)\n\n\ @param\ colour\ body\ colourBody\n
+comment2.params=x\ y
+comment2.target=void\ drawRobot(int,\ int)
+comment2.text=\n\ Draws\ a\ robot\ onto\ the\ canvas\ -\ No\ verification\ on\ the\ coordinates.\ \n\ If\ the\ robot\ was\ already\ drawn,\ it\ is\ erased\ (thanks\ to\ Canvas)\n\ stores\ the\ coordinates\ to\ allow\ redraw\ if\ the\ color\ changes\n\n\ @param\ \ x,y\ \ robot\ position\n
+comment3.params=colourBody
+comment3.target=void\ setColourBody(java.lang.String)
+comment3.text=\n\ Method\ setColourBody\n\ Sets\ the\ colour\ of\ the\ body\ and\ draw\ it\ again\n\ \n\ @param\ colourBody\ the\ new\ colour\n
+comment4.params=
+comment4.target=java.lang.String\ getColourBody()
+comment4.text=\n\ Method\ getColourBody\n\n\ @return\ The\ actual\ color\ of\ the\ body\n
+comment5.params=colour
+comment5.target=Colour\ valueOf(java.lang.String)
+comment5.text=\n\ Utilitary\ method\ valueOf\n\ returns\ the\ value\ of\ the\ String\ param\ il\ enum\ Colour,\ with\ no\ sensitive\ letters\n\ if\ the\ String\ is\ not\ a\ colour,\ returns\ "BLUE"\n\n\ @param\ colour\ the\ String\ that\ represents\ the\ colour\n\ @return\ value\ in\ Colour\ enum\n
+numComments=6

@@ -1,0 +1,58 @@
+# Ignorer les fichiers de log
+*.log
+
+# Ignorer les fichiers de configuration temporaire ou système
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers générés par l'environnement de développement
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Ignorer les fichiers de build et de compilation
+build/
+dist/
+out/
+*.class
+*.o
+*.so
+*.dll
+*.exe
+
+# Ignorer les fichiers de dépendances (ex. Node.js)
+node_modules/
+npm-debug.log*
+
+# Ignorer les fichiers de Python
+__pycache__/
+*.py[cod]
+
+# Ignorer les environnements virtuels Python
+venv/
+env/
+
+# Ignorer les fichiers sensibles
+.env
+*.key
+*.pem
+
+# Ignorer les fichiers temporaires
+*.tmp
+*.swp
+*.bak
+*.~*
+
+# Ignorer les fichiers de cache
+.cache/
+*.log
+
+# Ignorer les dossiers spécifiques aux frameworks
+# Pour Laravel
+/storage/
+vendor/
+
+# Pour React
+/.next/
+/build/
